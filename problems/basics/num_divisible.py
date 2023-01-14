@@ -9,7 +9,7 @@ def num_divisible(lb, ub, p, q):
     # After running your code, variable n should contain the value
     # we ask you to compute in this exercise.
     n = 0
-    for i in range(lb, ub+1)
+    for i in range(lb, ub+1):
         if(  ((i % p == 0) && (i % q != 0))  ||  ((i % p != 0) && (i % q == 0)) )
             n++
             
